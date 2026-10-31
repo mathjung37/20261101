@@ -293,6 +293,24 @@ details[open] summary::after {
   color: var(--muted);
   background: var(--mist);
   font-size: 0.9rem;
+  text-align: center;
+}
+
+.account-content > * {
+  display: block;
+}
+
+.account-content b {
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+
+.account-content small {
+  margin-top: 0.2rem;
+  font-size: 0.76rem;
 }
 
 :focus-visible {
