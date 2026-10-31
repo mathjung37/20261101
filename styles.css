@@ -203,12 +203,6 @@ h2 {
   font-size: 0.9rem;
 }
 
-.family-list dt small {
-  display: block;
-  margin-top: 0.15rem;
-  font-size: 0.78rem;
-}
-
 .family-list dd {
   margin: 0;
   font-family: var(--serif);
@@ -224,8 +218,7 @@ h2 {
 }
 
 .family-list dd b {
-  display: block;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .family-list dd i {
