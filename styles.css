@@ -301,6 +301,30 @@ details[open] summary::after {
   letter-spacing: 0.01em;
 }
 
+.account-number-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.05rem;
+}
+
+.copy-account {
+  flex: none;
+  padding: 0.16rem 0.38rem;
+  color: var(--blue);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 0.2rem;
+  font: 600 0.68rem var(--sans);
+  line-height: 1.35;
+  cursor: pointer;
+}
+
+.copy-account:hover {
+  border-color: var(--blue);
+}
+
 .account-content small {
   margin-top: 0.2rem;
   font-size: 0.76rem;
