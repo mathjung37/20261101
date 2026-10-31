@@ -72,31 +72,33 @@ main {
 
 .cross {
   position: relative;
-  width: 3.2rem;
-  height: 4.35rem;
+  width: 3.65rem;
+  height: 4.9rem;
   margin-bottom: 2.2rem;
+  filter: drop-shadow(0 5px 5px rgba(24, 40, 49, 0.18));
 }
 
 .cross::before,
 .cross::after {
   position: absolute;
   content: "";
-  background: var(--blue);
+  background: linear-gradient(90deg, #263f50 0%, #49677a 48%, #263f50 100%);
+  border-radius: 1px;
 }
 
 .cross::before {
   top: 0;
   left: 50%;
-  width: 2px;
+  width: 5px;
   height: 100%;
   transform: translateX(-50%);
 }
 
 .cross::after {
-  top: 1.2rem;
+  top: 1.35rem;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 5px;
 }
 
 .blessing {
