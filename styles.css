@@ -218,8 +218,11 @@ h2 {
 }
 
 .family-list dd b {
-  font-size: 1.12rem;
-  font-weight: 700;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1.16rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
 }
 
 .family-list dd i {
