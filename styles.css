@@ -251,9 +251,12 @@ details {
   border-bottom: 1px solid var(--line);
 }
 
+.account-list > details:first-child {
+  border-top: 1px solid var(--line);
+}
+
 .account-empty {
   min-height: 3.6rem;
-  border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 
